@@ -1,13 +1,10 @@
-= Problem #1: Two Sum
-:source-highlighter: rouge
-:nofooter:
+# Problem \#1: Two Sum
 
 * Link: https://leetcode.com/problems/two-sum
 * Discussion: https://leetcode.com/problems/two-sum/discuss
 
-== Statement
+## Statement
 
-++++
 <p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
 <p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
@@ -47,11 +44,4 @@
 	<li><strong>Only one valid answer exists.</strong></li>
 </ul>
 
-++++
-
-== Solution
-
-[source, rust, options="nowrap"]
-----
-include::./src/lib.rs[]
-----
+## Solution

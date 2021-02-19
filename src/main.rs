@@ -127,8 +127,8 @@ impl Problem {
 
         // Generate the problem description
         std::fs::write(
-            &output_dir.join("README.adoc"),
-            std::fs::read_to_string(sample_dir.join("README.adoc"))?
+            &output_dir.join("README.md"),
+            std::fs::read_to_string(sample_dir.join("README.md"))?
                 .replace("__PROBLEM_ID__", &format!("{}", self.id))
                 .replace("__PROBLEM_TITLE__", &self.title)
                 .replace("__PROBLEM_STATEMENT__", &self.content)
