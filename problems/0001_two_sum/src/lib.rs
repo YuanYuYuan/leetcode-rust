@@ -1,6 +1,6 @@
 /// NO. 1: Two Sum
 
-pub struct Solution {}
+pub struct Solution;
 
 // ----- submission codes start here -----
 

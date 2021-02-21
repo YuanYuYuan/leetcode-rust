@@ -1,6 +1,6 @@
 /// NO. __PROBLEM_ID__: __PROBLEM_TITLE__
 
-pub struct Solution {}
+pub struct Solution;
 
 // ----- submission codes start here -----
 

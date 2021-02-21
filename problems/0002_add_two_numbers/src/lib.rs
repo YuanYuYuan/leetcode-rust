@@ -1,6 +1,6 @@
 /// NO. 2: Add Two Numbers
 
-pub struct Solution {}
+pub struct Solution;
 
 
 

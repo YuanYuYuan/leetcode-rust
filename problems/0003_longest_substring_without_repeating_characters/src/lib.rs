@@ -1,6 +1,6 @@
 /// NO. 3: Longest Substring Without Repeating Characters
 
-pub struct Solution {}
+pub struct Solution;
 
 // ----- submission codes start here -----
 
