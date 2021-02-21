@@ -189,7 +189,7 @@ async fn get_problem_by_id(id: u32) -> Result<Problem> {
 async fn main() -> Result<()> {
     let mut id = String::new();
     print!("Enter the problem ID to initialize: ");
-    io::stdout().flush();
+    io::stdout().flush()?;
     io::stdin()
         .read_line(&mut id)
         .expect("Failed to read line");

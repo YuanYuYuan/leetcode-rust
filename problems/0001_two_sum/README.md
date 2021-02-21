@@ -43,5 +43,3 @@
 	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
 	<li><strong>Only one valid answer exists.</strong></li>
 </ul>
-
-## Solution
