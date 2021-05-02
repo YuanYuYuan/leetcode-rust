@@ -1,5 +1,5 @@
 [package]
-name = "leetcode-rs"
+name = "leetcode"
 version = "0.1.0"
 authors = ["yuanyuyuan <az6980522@gmail.com>"]
 edition = "2018"
@@ -13,3 +13,6 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 anyhow = "1.0"
 futures = "0.3"
+
+[workspace]
+members = ["problems/*"]
